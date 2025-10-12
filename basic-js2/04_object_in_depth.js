@@ -44,7 +44,31 @@ const user = [
         email:"akash@gmail.com",
     },
 ]
-console.log(user[1].email);
-console.log(tinderuser);
-console.log(Object.values(tinderuser));
-console.log(tinderuser.hasOwnProperty('name'));
+// console.log(user[1].email);
+// console.log(tinderuser);
+// console.log(Object.values(tinderuser));
+// console.log(tinderuser.hasOwnProperty('name'));
+
+/******************** obj destructure *****************/
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    couseInstructor:"akash",
+
+}
+// course.couseInstructor
+const {couseInstructor: instructor} = course
+// console.log(couseInstructor);
+console.log(instructor)
+
+// {
+//     "myname":"hitesh",
+//     "coursename":"js in hindi",
+//     "price":"999",
+// }
+
+[
+    {},
+    {},
+    {},
+]
